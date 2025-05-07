@@ -56,5 +56,103 @@ Reglas de moderación:
 - En cualquier otro caso, no se aplica ningún descuento.
 
 ---
+# 🔍 Ejercicios Avanzados: Mapas de Decisión en Contextos Informáticos y Empresariales
+
+Estos ejercicios requieren una interpretación lógica más profunda. Involucran múltiples condiciones, operaciones compuestas, rangos y estructuras que se asemejan más a la lógica usada en programación real.
+
+---
+
+## 📁 1. Clasificación de tickets en una mesa de ayuda técnica
+
+Una empresa desea clasificar automáticamente los tickets que llegan a su sistema de soporte:
+
+### Reglas:
+- Si el ticket es de prioridad alta, el cliente es VIP, **y no ha sido respondido en menos de 1 hora**, se marca como **crítico**.
+- Si el ticket es de prioridad alta **o** el cliente es VIP, pero sí fue respondido a tiempo, se clasifica como **urgente**.
+- Si es de prioridad media o baja, pero el cliente ha reportado **más de 3 tickets en el mes**, se marca como **seguimiento especial**.
+- Cualquier otro caso es **ticket normal**.
+
+### Variables:
+- `prioridad`: alta, media, baja
+- `clienteVIP`: verdadero/falso
+- `tiempoRespuestaHoras`: número
+- `ticketsEsteMes`: número entero
+
+---
+
+## 📦 2. Automatización de pedidos inteligentes para distribuidores
+
+Un sistema de reabastecimiento evalúa pedidos en una red de distribuidores.
+
+### Reglas:
+- Si el inventario está por debajo del 20% del mínimo esperado **y** las ventas han aumentado al menos un 30% respecto al mes pasado **y** es fin de mes, se genera un **pedido anticipado de emergencia**.
+- Si al menos dos de esas condiciones se cumplen, se genera un **pedido urgente normal**.
+- Si solo una se cumple, se genera un **pedido programado**.
+- Si no se cumple ninguna, **no se realiza ningún pedido**.
+
+### Variables:
+- `nivelInventario`: porcentaje
+- `variacionVentas`: porcentaje (+ o -)
+- `esFinDeMes`: verdadero/falso
+
+---
+
+## 💳 3. Validación de transacciones bancarias sospechosas
+
+Un banco quiere automatizar el análisis de seguridad de sus transacciones.
+
+### Reglas:
+- Si el monto es mayor a $10.000.000 **y** se realiza desde una ubicación no habitual **y** fuera del horario laboral (antes de 6am o después de 9pm), se **bloquea automáticamente**.
+- Si se cumplen dos condiciones, se **solicita verificación por llamada al cliente**.
+- Si solo una condición es verdadera, se **envía alerta por mensaje**.
+- Si no se cumple ninguna, se **aprueba normalmente**.
+
+### Variables:
+- `monto`: valor numérico
+- `ubicacionNoHabitual`: verdadero/falso
+- `hora`: número entero (24h)
+
+---
+
+## 📊 4. Evaluación del desempeño anual de empleados
+
+Un sistema de RRHH determina la clasificación final del empleado según múltiples factores.
+
+### Reglas:
+- Si tiene promedio de evaluaciones superior a 4.5, **no tiene sanciones registradas**, **y participó en al menos 2 capacitaciones**, se clasifica como **destacado**.
+- Si tiene promedio entre 4.0 y 4.5 y cumple al menos una de las otras dos condiciones, se clasifica como **satisfactorio**.
+- Si tiene promedio entre 3.0 y 4.0, independientemente de las otras condiciones, se clasifica como **en observación**.
+- Si tiene promedio menor a 3.0 **o** tiene sanciones, se clasifica como **desempeño deficiente**.
+
+### Variables:
+- `promedioEvaluacion`: número decimal (0.0 a 5.0)
+- `sanciones`: verdadero/falso
+- `capacitaciones`: número entero
+
+---
+
+## 🌐 5. Sistema de sugerencias automatizadas de marketing
+
+Una plataforma digital selecciona automáticamente el tipo de campaña para cada usuario según múltiples criterios.
+
+### Reglas:
+- Si el usuario ha comprado en los últimos 7 días **y** ha visitado la tienda al menos 3 veces esta semana **y** su historial indica interés en nuevos productos, se lanza una **campaña de fidelización avanzada**.
+- Si ha comprado recientemente **y** al menos una de las otras condiciones es verdadera, se lanza una **campaña de recomendación personalizada**.
+- Si solo ha visitado muchas veces pero no ha comprado, se lanza una **campaña de remarketing**.
+- Si no ha interactuado en absoluto, se lanza una **campaña de reactivación**.
+
+### Variables:
+- `diasDesdeUltimaCompra`: número entero
+- `visitasSemanales`: número entero
+- `interesNovedades`: verdadero/falso
+
+---
+
+💡 **Desafío adicional**: Para cada ejercicio:
+1. Haz el mapa de decisión.
+2. Describe verbalmente el razonamiento detrás de cada camino.
+3. Transforma la lógica en pseudocódigo o código real en tu lenguaje de preferencia.
+
+
 
 ¡Explora, analiza y toma decisiones informadas!
