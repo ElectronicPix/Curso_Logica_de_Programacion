@@ -64,3 +64,30 @@ Relaciona cada uno de los siguientes grupos con un concepto de conjuntos:
 5. Usuarios con suscripción activa que no han calificado contenido.  
 6. Usuarios que calificaron contenido (tengan o no suscripción).  
 7. Usuarios que calificaron sin tener suscripción activa.
+
+
+## Ejemplo 3: Empleados y capacitaciones
+**Conjunto A**: Empleados que asistieron al curso de seguridad laboral.  
+**Conjunto B**: Empleados que aprobaron el examen de seguridad.
+
+- Empleados que asistieron al curso y aprobaron el examen.
+- Empleados que asistieron al curso o aprobaron el examen, o ambas cosas.
+- Empleados que solo asistieron al curso o solo aprobaron el examen, pero no ambos.
+- Todos los empleados que asistieron al curso (hayan aprobado o no).
+- Empleados que asistieron al curso pero no aprobaron el examen.
+- Empleados que aprobaron el examen (hayan asistido al curso o no).
+- Empleados que aprobaron sin haber asistido al curso.
+
+---
+
+## Ejemplo 4: Productos y devoluciones
+**Conjunto A**: Productos vendidos en el último mes.  
+**Conjunto B**: Productos que fueron devueltos por fallas.
+
+- Productos que fueron vendidos y luego devueltos.
+- Productos que fueron vendidos, o devueltos, o ambas cosas.
+- Productos que solo fueron vendidos o solo fueron devueltos, pero no ambos.
+- Todos los productos vendidos (independientemente de si fueron devueltos o no).
+- Productos vendidos que no fueron devueltos.
+- Productos devueltos (hayan sido vendidos el último mes o no).
+- Productos devueltos que no fueron vendidos este último mes.
