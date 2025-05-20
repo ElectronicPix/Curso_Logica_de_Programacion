@@ -3,11 +3,7 @@
 
 ## ¿Qué es una implicación lógica?
 
-En lógica proposicional, la **implicación** (también llamada **condicional**) es una estructura que relaciona dos proposiciones mediante el conector **"si... entonces..."**, y se representa así:
-
-\[
-P \rightarrow Q
-\]
+En lógica proposicional, la **implicación** (también llamada **condicional**) es una estructura que relaciona dos proposiciones mediante el conector **"si... entonces..."**
 
 Se lee como: "**Si P, entonces Q**", donde:
 - **P** es la **hipótesis** o **antecedente**
@@ -15,9 +11,9 @@ Se lee como: "**Si P, entonces Q**", donde:
 
 Esta expresión es **falsa solamente cuando P es verdadera y Q es falsa**. En cualquier otro caso, se considera verdadera.
 
-### Tabla de verdad de \( P \rightarrow Q \):
+### Tabla de verdad:
 
-| P | Q | \( P \rightarrow Q \) |
+| P | Q | ( P -> Q \) |
 |---|---|------------------------|
 | V | V | ✅ Verdadero            |
 | V | F | ❌ Falso                |
@@ -31,9 +27,7 @@ Esta expresión es **falsa solamente cuando P es verdadera y Q es falsa**. En cu
 
 ##  ¿Qué vas a practicar?
 
-En la siguiente hoja de cálculo encontrarás ejercicios donde aplicarás este conector lógico. También encontrarás variantes más complejas como:
-- \( (P \land Q) \rightarrow R \)
-- \( P \rightarrow (Q \lor H) \)
+En la siguiente hoja de cálculo encontrarás ejercicios donde aplicarás este conector lógico.
 
 Esto te permitirá desarrollar habilidades para analizar condiciones, decisiones y resultados en entornos digitales y lógicos (como sistemas o programación).
 
