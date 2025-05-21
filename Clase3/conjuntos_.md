@@ -91,3 +91,17 @@ Relaciona cada uno de los siguientes grupos con un concepto de conjuntos:
 - Productos vendidos que no fueron devueltos.
 - Productos devueltos (hayan sido vendidos el último mes o no).
 - Productos devueltos que no fueron vendidos este último mes.
+
+## Ejemplo 5: Inventario, ventas y productos en promoción
+
+**Conjunto A**: Productos que están actualmente en inventario.  
+**Conjunto B**: Productos que han sido vendidos este mes.  
+**Conjunto C**: Productos que están en promoción activa.
+
+- Productos que están en inventario, se han vendido este mes y están en promoción.
+- Productos que están en al menos uno de los tres conjuntos (inventario, ventas o promoción).
+- Productos que están en inventario y en promoción, pero no se han vendido.
+- Productos vendidos este mes que no están ni en inventario ni en promoción.
+- Productos que están en promoción pero no se han vendido ni están en inventario.
+- Productos que están tanto en inventario como en ventas, pero no en promoción.
+- Productos que no están en ninguno de los tres conjuntos (es decir, productos antiguos, no disponibles ni en promoción).
