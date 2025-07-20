@@ -14,3 +14,4 @@ Representar procesos con diagramas de flujo y mapas de decisión.
 Traducir ideas complejas en instrucciones claras y ordenadas.
 
 Al finalizar este módulo, estarás completamente preparado(a) para comenzar tus cursos oficiales de programación con una base sólida en pensamiento lógico y resolución de problemas.
+
